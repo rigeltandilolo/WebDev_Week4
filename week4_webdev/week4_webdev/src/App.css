@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  background-color: rgb(23, 23, 23);
+  color: white;
+  font-family: sans-serif;
+}
+
+
+.App {
+  font-family: sans-serif;
+  width: 100%;
+}
+
+.section1{
+  width: 100%;
+  height: fit-content;
+  border-radius: 4px;
+  border-color: white;
+}
+
+.Foto{
+  width: 40%;
+  min-width: 200pt;
+  height: auto;
+  border-radius: 4px;
+  border-color: white;
+  float: left;
+}
+
+.nama{
+  width: 60%;
+  float: right;
+  height: 235px;
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+  border-radius: 4px;
+  color: aliceblue;
+  
+}
+
+.section2{
+  width: 100%;
+  height: fit-content;
+}
+
+.poinKiri{
+  width: 40%;
+  float: left;
+}
+
+.poinKanan{
+  width: 60%;
+  float: right;
+}
+
+.organisasi{
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.organisasipenjelas {
+  width: 100%;
+  float: left;
+}
+
+.judulorganisasi {
+  font-size: 18px;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container {
+  display: flex;
+}
+
+.left-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.image-container {
+  position: relative;
+  margin-right: 20px;
+  width: 40%;
+  min-width: 200pt;
+  height: auto;
+  border-radius: 4px;
+  border-color: white;
+  float: left;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.accordion {
+  width: 300px;
+}
+
+.accordion-item {
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+}
+
+.accordion-title {
+  background-color: #000000;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.accordion-content {
+  padding: 10px;
+}
